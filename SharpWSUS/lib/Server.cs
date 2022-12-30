@@ -32,7 +32,7 @@ public class Server
             if (sContentDirectoryTemp == "ERROR_FILE_NOT_FOUND")
             {
                 bWSUSInstalled = false;
-                Console.WriteLine("Something went wrong, unable to detect SQL details from registry.");
+                Console.WriteLine("Something went wrong, unable to detect SQL details from registry 1.");
                 return;
             }
         }
@@ -55,7 +55,7 @@ public class Server
             if (sDBServerTemp == "ERROR_FILE_NOT_FOUND")
             {
                 bWSUSInstalled = false;
-                Console.WriteLine("Something went wrong, unable to detect SQL details from registry.");
+                Console.WriteLine("Something went wrong, unable to detect SQL details from registry 2 .");
                 return;
             }
         }
@@ -70,7 +70,7 @@ public class Server
             if (sDBNameTemp == "ERROR_FILE_NOT_FOUND")
             {
                 bWSUSInstalled = false;
-                Console.WriteLine("Something went wrong, unable to detect SQL details from registry.");
+                Console.WriteLine("Something went wrong, unable to detect SQL details from registry 3.");
                 return;
             }
         }
